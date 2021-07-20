@@ -1,12 +1,14 @@
 import React, { Component } from "react";
-
+import Direct from "./svg/Direct";
 export default class subscribe extends Component {
   render() {
     return (
       <div className="">
-        <body className=" flex justify-center flex flex-wrap mx-1   h-screen w-screen ">
-          <div class="bg-white  h-64 w-full ml-40 mr-40  rounded-tr-4xl bg-blue-50 shadow-md ml-0  ">
-            <p className="text-center text-2xl font-bold mt-4 text-gray-700 	">
+        <Direct/> 
+        <body className=" flex justify-center flex flex-wrap mx-1   h-96 w-screen ">
+         
+          <div class="bg-white  h-64 w-full ml-40 mr-40  rounded-r-3xl	 bg-blue-50 shadow-md ml-0  ">
+            <p className="text-center text-2xl font-bold mt-10 text-purple-500 	">
               Subscribe to get information, latest news and other interesting
               offers about Cobham
             </p>

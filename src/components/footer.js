@@ -39,7 +39,7 @@ export default class footer extends Component {
               </div>
 
               <div class="w-full overflow-hidden sm:my-1 sm:px-1 sm:w-1/2 md:my-px md:px-px md:w-1/2 lg:my-2 lg:px-2 lg:w-1/4 xl:my-2 xl:px-2 xl:w-1/4 pb-6">
-                <h4 class="text-black">Contact</h4>
+                <h4 class="text-black font-bold">Contact</h4>
                 <ul class="">
                   <li id="navi-2" class="leading-7 text-sm">
                     <a class="text-black underline text-small" href="/page-1">
@@ -61,7 +61,7 @@ export default class footer extends Component {
               </div>
 
               <div class="w-full overflow-hidden sm:my-1 sm:px-1 sm:w-1/2 md:my-px md:px-px md:w-1/2 lg:my-2 lg:px-2 lg:w-1/4 xl:my-2 xl:px-2 xl:w-1/4 pb-6">
-                <h4 class="text-black">More </h4>
+                <h4 class="text-black font-bold">More </h4>
                 <ul class="">
                   <li id="navi-2" class="leading-7 text-sm">
                     <a class="text-black underline text-small" href="/page-1">

@@ -14,16 +14,16 @@ export default class Category extends Component {
         </p>
 
         <body class=" flex justify-center   py-20  flex flex-wrap -mx-5  h-screen text-center  p-4 ">
-          <div class="bg-white p-10 h-80 w-64 rounded-lg bg-gray-100 shadow-md ml-0 mb-4 transform transition duration-500 hover:scale-110">
+          <div class="bg-white p-10 h-72 w-60 rounded-3xl	 bg-gray-50 shadow-md ml-0 mb-4 transform transition duration-500 hover:scale-110">
             <Weather />
-            <h1 class="text-lg font-bold py-4">Calculated Weather </h1>
-            <div class="mt-4 mb-10">
+            <h1 class="text-lg font-bold py-3">Calculated Weather </h1>
+            <div class="mt-0 mb-10">
               <p class="text-gray-600">
                 Built Wicket longer admire do barton vanity itself do in it.
               </p>
             </div>
           </div>
-          <div class="bg-white p-10 h-80 w-64 rounded-lg  bg-gray-100 shadow-md ml-6 mb-4 transform transition duration-500 hover:scale-110">
+          <div class="bg-white p-10 h-72 w-60 rounded-3xl  bg-gray-50 shadow-md ml-6 mb-4 transform transition duration-500 hover:scale-110">
             <Plane />
             <h1 class="text-lg font-bold py-4">Best Flights </h1>
             <div class="mt-4 mb-10">
@@ -32,7 +32,7 @@ export default class Category extends Component {
               </p>
             </div>
           </div>
-          <div class="bg-white p-10 h-80 w-64 rounded-lg bg-gray-100 shadow-md ml-6 mb-4 transform transition duration-500 hover:scale-110">
+          <div class="bg-white p-10 h-72 w-60 rounded-3xl  bg-gray-50 shadow-md ml-6 mb-4 transform transition duration-500 hover:scale-110">
             <img className="ml-7" src={Mic} alt="mic" width="92" height="78" />
             <h1 class="text-lg font-bold py-4">Local Events </h1>
             <div class="mt-4 mb-10">
@@ -42,7 +42,7 @@ export default class Category extends Component {
               </p>
             </div>
           </div>
-          <div class="bg-white p-10 h-80 w-64 rounded-lg bg-gray-100 shadow-md ml-6 mb-0 transform transition duration-500 hover:scale-110">
+          <div class="bg-white p-10 h-72 w-60 w-64 rounded-3xl  bg-gray-50  shadow-md ml-6 mb-0 transform transition duration-500 hover:scale-110">
             <Settings />
             <h1 class="text-lg font-bold py-4">Customization </h1>
             <div class="mt-4 mb-10">
